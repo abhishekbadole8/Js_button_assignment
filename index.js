@@ -11,6 +11,9 @@ function addOne() {
 
 
 function subOne() {
+        if (i<=0){
+        return 0
+    }
     i--
     document.querySelector(".displayNum").innerHTML = i
 }
